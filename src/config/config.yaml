@@ -1,0 +1,15 @@
+# File: src/config/config.yaml
+# Purpose: Configuration file for the FX Trading Bot.
+# Defines strategy parameters, filters, and ML configurations.
+
+# TODO: Define strategy configurations
+strategies: {}
+
+# TODO: Define ML model configurations
+ml_strategies: {}
+
+# TODO: Define MT5 connection settings
+mt5: {}
+
+# TODO: Define database settings
+database: {}

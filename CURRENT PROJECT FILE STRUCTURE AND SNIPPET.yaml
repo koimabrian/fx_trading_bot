@@ -1,0 +1,365 @@
+# File: requirements.txt
+# Purpose: Lists Python dependencies for the FX Trading Bot.
+
+# TODO: Add required packages (e.g., MetaTrader5, pandas, ta-lib, etc.)
+MetaTrader5
+pandas
+ta-lib
+scikit-learn
+tensorflow
+onnx
+redis
+PyQt5
+pyyaml
+sqlcipher3
+bcrypt
+
+# File: README.md
+# FX Trading Bot
+
+## Overview
+A Python-based automated trading system for Forex trading, integrated with MetaTrader 5 (MT5). Supports rule-based and ML-based strategies, backtesting, and a hybrid CLI/GUI interface.
+
+## Setup Instructions
+### Prerequisites
+- Python 3.10+
+- Docker
+- MetaTrader 5
+
+### Installation
+# TODO: Add installation steps
+
+## Technology Stack
+- Python: Core programming language
+- MetaTrader5: API for trade execution
+- Pandas, TA-Lib: Data processing and technical indicators
+- Scikit-learn, TensorFlow: ML model training
+- ONNX Runtime: ML model inference
+- Redis: Caching
+- SQLite with SQLCipher: Encrypted data storage
+- PyQt: Graphical UI
+- Tailwind CSS, Sass: UI styling
+- Docker: Containerization
+
+
+# File: Dockerfile
+# Purpose: Defines the Docker container setup for the FX Trading Bot.
+# Ensures consistent development and deployment environments.
+
+FROM python:3.10-slim
+
+# TODO: Install dependencies (MetaTrader5, pandas, ta-lib, etc.)
+# TODO: Copy project files and set up environment
+# TODO: Define entry point for running the bot
+
+
+# File: docker-compose.yml
+# Purpose: Defines multi-container setup for the FX Trading Bot.
+# Includes services for the bot, SQLite, and Redis.
+
+version: '3.8'
+services:
+  bot:
+    build: .
+    # TODO: Define bot service configuration
+  redis:
+    image: redis:latest
+    # TODO: Define Redis service configuration
+  sqlite:
+    image: nouchka/sqlite3:latest
+    # TODO: Define SQLite service configuration
+
+# File: .gitignore
+# Purpose: Specifies files and directories to ignore in version control.
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.log
+data/
+logs/
+results/
+*.sqlite
+*.db
+
+
+# File: src/strategy_manager.py
+# Purpose: Manages rule-based trading strategies for the FX Trading Bot.
+# This module handles dynamic loading, validation, and execution of strategies.
+
+import importlib
+import pandas as pd
+
+class StrategyManager:
+    def __init__(self, config):
+        # TODO: Initialize strategy manager with config
+        pass
+
+    def load_strategy(self, strategy_name):
+        # TODO: Implement dynamic strategy loading logic
+        pass
+
+    def execute_strategies(self, data):
+        # TODO: Implement strategy execution and signal aggregation logic
+        pass
+
+
+# File: src/setup_data.py
+# Purpose: Sets up local SQLite/CSV storage for market data in the FX Trading Bot.
+# This module fetches and stores historical data from MT5 for backtesting and ML training.
+
+import sqlite3
+import pandas as pd
+from src.mt5_connector import MT5Connector
+
+class DataSetup:
+    def __init__(self, config):
+        # TODO: Initialize data setup with config
+        pass
+
+    def fetch_historical_data(self, symbol, timeframe):
+        # TODO: Implement historical data fetching logic
+        pass
+
+    def store_data(self, data):
+        # TODO: Implement data storage logic for SQLite/CSV
+        pass
+
+# File: src/mt5_connector.py
+# Purpose: Handles MetaTrader 5 (MT5) API integration for the FX Trading Bot.
+# This module manages trade execution, market data fetching, and account management.
+
+import MetaTrader5 as mt5
+
+class MT5Connector:
+    def __init__(self, config):
+        # TODO: Initialize MT5 connection with config
+        pass
+
+    def fetch_market_data(self, symbol, timeframe):
+        # TODO: Implement market data retrieval logic
+        pass
+
+    def place_order(self, order):
+        # TODO: Implement trade order placement logic
+        pass
+
+
+# File: src/ml_strategy_manager.py
+# Purpose: Manages ML-based trading strategies for the FX Trading Bot.
+# This module handles loading, training, and inference for ML strategies.
+
+import pandas as pd
+import redis
+import onnx
+
+class MLStrategyManager:
+    def __init__(self, config):
+        # TODO: Initialize ML strategy manager with config
+        pass
+
+    def load_ml_strategy(self, strategy_name):
+        # TODO: Implement ML strategy loading logic
+        pass
+
+    def train_model(self, data):
+        # TODO: Implement ML model training logic
+        pass
+
+    def generate_signal(self, data):
+        # TODO: Implement ML signal generation logic
+        pass
+
+
+# File: src/main.py
+# Purpose: Main entry point for the FX Trading Bot.
+# This module orchestrates strategy execution, backtesting, and live trading.
+
+from src.strategy_manager import StrategyManager
+from src.ml_strategy_manager import MLStrategyManager
+from src.backtest_runner import BacktestRunner
+from src.mt5_connector import MT5Connector
+from src.ui.cli import setup_parser
+
+def main():
+    # TODO: Implement main logic for bot execution (CLI/GUI, backtest, live trading)
+    pass
+
+if __name__ == "__main__":
+    main()
+
+
+# File: src/backtest_runner.py
+# Purpose: Runs backtesting for rule-based and ML strategies in the FX Trading Bot.
+# This module tests strategies against historical data and optimizes configurations.
+
+import pandas as pd
+from src.strategy_manager import StrategyManager
+from src.ml_strategy_manager import MLStrategyManager
+
+class BacktestRunner:
+    def __init__(self, config):
+        # TODO: Initialize backtest runner with config
+        pass
+
+    def run_backtest(self, strategy, data):
+        # TODO: Implement backtesting logic for a given strategy
+        pass
+
+    def optimize_strategy(self, strategy, data):
+        # TODO: Implement grid search or hyperparameter tuning logic
+        pass
+
+
+# File: src/ui/gui/dashboard.py
+# Purpose: Implements the main dashboard for the FX Trading Bot's graphical UI.
+# This module provides a PyQt-based interface for strategy management and performance visualization.
+
+from PyQt5 import QtWidgets
+
+class Dashboard(QtWidgets.QMainWindow):
+    def __init__(self):
+        # TODO: Initialize dashboard UI components
+        pass
+
+    def update_metrics(self, metrics):
+        # TODO: Implement logic to update performance metrics display
+        pass
+
+
+# File: src/ui/gui/filter_editor.py
+# Purpose: Implements the filter editor for the FX Trading Bot's graphical UI.
+# This module provides a PyQt-based interface for editing strategy filters.
+
+from PyQt5 import QtWidgets
+
+class FilterEditor(QtWidgets.QWidget):
+    def __init__(self):
+        # TODO: Initialize filter editor UI components
+        pass
+
+    def apply_filters(self, filters):
+        # TODO: Implement logic to apply filter configurations
+        pass
+
+
+# File: src/ui/gui/partner_dashboard.py
+# Purpose: Implements the read-only partner dashboard for the FX Trading Bot's graphical UI.
+# This module provides a PyQt-based interface for partners to view performance metrics.
+
+from PyQt5 import QtWidgets
+
+class PartnerDashboard(QtWidgets.QMainWindow):
+    def __init__(self):
+        # TODO: Initialize partner dashboard UI components
+        pass
+
+    def display_metrics(self, metrics):
+        # TODO: Implement logic to display read-only performance metrics
+        pass
+
+
+# File: src/ui/cli.py
+# Purpose: Implements the command-line interface for the FX Trading Bot.
+# This module provides CLI commands for strategy configuration, backtesting, and result review.
+
+import argparse
+
+def setup_parser():
+    # TODO: Define CLI arguments for strategy, backtest, and ML model management
+    pass
+
+def main():
+    # TODO: Implement main CLI logic for user interaction
+    pass
+
+
+# File: src/strategies/macd_strategy.py
+# Purpose: Defines the MACD-based trading strategy for the FX Trading Bot.
+# This module implements the logic for generating buy/sell signals using MACD indicators.
+
+import pandas as pd
+import talib
+
+class MACDStrategy:
+    def __init__(self, config):
+        # TODO: Initialize strategy parameters from config
+        pass
+
+    def generate_signal(self, data):
+        # TODO: Implement MACD signal generation logic
+        pass
+
+
+# File: src/strategies/rsi_strategy.py
+# Purpose: Defines the RSI-based trading strategy for the FX Trading Bot.
+# This module implements the logic for generating buy/sell signals using RSI indicators.
+
+import pandas as pd
+import talib
+
+class RSIStrategy:
+    def __init__(self, config):
+        # TODO: Initialize strategy parameters from config
+        pass
+
+    def generate_signal(self, data):
+        # TODO: Implement RSI signal generation logic
+        pass
+
+
+# File: src/ml_strategies/lstm_strategy.py
+# Purpose: Defines the LSTM-based ML strategy for the FX Trading Bot.
+# This module implements ML-based signal generation using LSTM models.
+
+import pandas as pd
+import tensorflow as tf
+import onnx
+
+class LSTMStrategy:
+    def __init__(self, model_path, config):
+        # TODO: Load LSTM model and initialize parameters
+        pass
+
+    def generate_signal(self, data):
+        # TODO: Implement ML-based signal generation logic
+        pass
+
+
+# File: src/ml_strategies/random_forest_strategy.py
+# Purpose: Defines the Random Forest-based ML strategy for the FX Trading Bot.
+# This module implements ML-based signal generation using Random Forest models.
+
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+import onnx
+
+class RandomForestStrategy:
+    def __init__(self, model_path, config):
+        # TODO: Load Random Forest model and initialize parameters
+        pass
+
+    def generate_signal(self, data):
+        # TODO: Implement ML-based signal generation logic
+        pass
+
+
+# File: src/config/config.yaml
+# Purpose: Configuration file for the FX Trading Bot.
+# Defines strategy parameters, filters, and ML configurations.
+
+# TODO: Define strategy configurations
+strategies: {}
+
+# TODO: Define ML model configurations
+ml_strategies: {}
+
+# TODO: Define MT5 connection settings
+mt5: {}
+
+# TODO: Define database settings
+database: {}

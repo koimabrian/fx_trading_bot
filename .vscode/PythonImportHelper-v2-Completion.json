@@ -1,0 +1,314 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "onnx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "onnx",
+        "description": "onnx",
+        "detail": "onnx",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "talib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "talib",
+        "description": "talib",
+        "detail": "talib",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "StrategyManager",
+        "importPath": "src.strategy_manager",
+        "description": "src.strategy_manager",
+        "isExtraImport": true,
+        "detail": "src.strategy_manager",
+        "documentation": {}
+    },
+    {
+        "label": "StrategyManager",
+        "importPath": "src.strategy_manager",
+        "description": "src.strategy_manager",
+        "isExtraImport": true,
+        "detail": "src.strategy_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MLStrategyManager",
+        "importPath": "src.ml_strategy_manager",
+        "description": "src.ml_strategy_manager",
+        "isExtraImport": true,
+        "detail": "src.ml_strategy_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MLStrategyManager",
+        "importPath": "src.ml_strategy_manager",
+        "description": "src.ml_strategy_manager",
+        "isExtraImport": true,
+        "detail": "src.ml_strategy_manager",
+        "documentation": {}
+    },
+    {
+        "label": "BacktestRunner",
+        "importPath": "src.backtest_runner",
+        "description": "src.backtest_runner",
+        "isExtraImport": true,
+        "detail": "src.backtest_runner",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "importPath": "src.mt5_connector",
+        "description": "src.mt5_connector",
+        "isExtraImport": true,
+        "detail": "src.mt5_connector",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "importPath": "src.mt5_connector",
+        "description": "src.mt5_connector",
+        "isExtraImport": true,
+        "detail": "src.mt5_connector",
+        "documentation": {}
+    },
+    {
+        "label": "setup_parser",
+        "importPath": "src.ui.cli",
+        "description": "src.ui.cli",
+        "isExtraImport": true,
+        "detail": "src.ui.cli",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "MetaTrader5",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "MetaTrader5",
+        "description": "MetaTrader5",
+        "detail": "MetaTrader5",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "LSTMStrategy",
+        "kind": 6,
+        "importPath": "src.ml_strategies.lstm_strategy",
+        "description": "src.ml_strategies.lstm_strategy",
+        "peekOfCode": "class LSTMStrategy:\n    def __init__(self, model_path, config):\n        # TODO: Load LSTM model and initialize parameters\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement ML-based signal generation logic\n        pass",
+        "detail": "src.ml_strategies.lstm_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestStrategy",
+        "kind": 6,
+        "importPath": "src.ml_strategies.random_forest_strategy",
+        "description": "src.ml_strategies.random_forest_strategy",
+        "peekOfCode": "class RandomForestStrategy:\n    def __init__(self, model_path, config):\n        # TODO: Load Random Forest model and initialize parameters\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement ML-based signal generation logic\n        pass",
+        "detail": "src.ml_strategies.random_forest_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "MACDStrategy",
+        "kind": 6,
+        "importPath": "src.strategies.macd_strategy",
+        "description": "src.strategies.macd_strategy",
+        "peekOfCode": "class MACDStrategy:\n    def __init__(self, config):\n        # TODO: Initialize strategy parameters from config\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement MACD signal generation logic\n        pass",
+        "detail": "src.strategies.macd_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "RSIStrategy",
+        "kind": 6,
+        "importPath": "src.strategies.rsi_strategy",
+        "description": "src.strategies.rsi_strategy",
+        "peekOfCode": "class RSIStrategy:\n    def __init__(self, config):\n        # TODO: Initialize strategy parameters from config\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement RSI signal generation logic\n        pass",
+        "detail": "src.strategies.rsi_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "Dashboard",
+        "kind": 6,
+        "importPath": "src.ui.gui.dashboard",
+        "description": "src.ui.gui.dashboard",
+        "peekOfCode": "class Dashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        # TODO: Initialize dashboard UI components\n        pass\n    def update_metrics(self, metrics):\n        # TODO: Implement logic to update performance metrics display\n        pass",
+        "detail": "src.ui.gui.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "FilterEditor",
+        "kind": 6,
+        "importPath": "src.ui.gui.filter_editor",
+        "description": "src.ui.gui.filter_editor",
+        "peekOfCode": "class FilterEditor(QtWidgets.QWidget):\n    def __init__(self):\n        # TODO: Initialize filter editor UI components\n        pass\n    def apply_filters(self, filters):\n        # TODO: Implement logic to apply filter configurations\n        pass",
+        "detail": "src.ui.gui.filter_editor",
+        "documentation": {}
+    },
+    {
+        "label": "PartnerDashboard",
+        "kind": 6,
+        "importPath": "src.ui.gui.partner_dashboard",
+        "description": "src.ui.gui.partner_dashboard",
+        "peekOfCode": "class PartnerDashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        # TODO: Initialize partner dashboard UI components\n        pass\n    def display_metrics(self, metrics):\n        # TODO: Implement logic to display read-only performance metrics\n        pass",
+        "detail": "src.ui.gui.partner_dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "setup_parser",
+        "kind": 2,
+        "importPath": "src.ui.cli",
+        "description": "src.ui.cli",
+        "peekOfCode": "def setup_parser():\n    # TODO: Define CLI arguments for strategy, backtest, and ML model management\n    pass\ndef main():\n    # TODO: Implement main CLI logic for user interaction\n    pass",
+        "detail": "src.ui.cli",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.ui.cli",
+        "description": "src.ui.cli",
+        "peekOfCode": "def main():\n    # TODO: Implement main CLI logic for user interaction\n    pass",
+        "detail": "src.ui.cli",
+        "documentation": {}
+    },
+    {
+        "label": "BacktestRunner",
+        "kind": 6,
+        "importPath": "src.backtest_runner",
+        "description": "src.backtest_runner",
+        "peekOfCode": "class BacktestRunner:\n    def __init__(self, config):\n        # TODO: Initialize backtest runner with config\n        pass\n    def run_backtest(self, strategy, data):\n        # TODO: Implement backtesting logic for a given strategy\n        pass\n    def optimize_strategy(self, strategy, data):\n        # TODO: Implement grid search or hyperparameter tuning logic\n        pass",
+        "detail": "src.backtest_runner",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def main():\n    # TODO: Implement main logic for bot execution (CLI/GUI, backtest, live trading)\n    pass\nif __name__ == \"__main__\":\n    main()",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "MLStrategyManager",
+        "kind": 6,
+        "importPath": "src.ml_strategy_manager",
+        "description": "src.ml_strategy_manager",
+        "peekOfCode": "class MLStrategyManager:\n    def __init__(self, config):\n        # TODO: Initialize ML strategy manager with config\n        pass\n    def load_ml_strategy(self, strategy_name):\n        # TODO: Implement ML strategy loading logic\n        pass\n    def train_model(self, data):\n        # TODO: Implement ML model training logic\n        pass",
+        "detail": "src.ml_strategy_manager",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "kind": 6,
+        "importPath": "src.mt5_connector",
+        "description": "src.mt5_connector",
+        "peekOfCode": "class MT5Connector:\n    def __init__(self, config):\n        # TODO: Initialize MT5 connection with config\n        pass\n    def fetch_market_data(self, symbol, timeframe):\n        # TODO: Implement market data retrieval logic\n        pass\n    def place_order(self, order):\n        # TODO: Implement trade order placement logic\n        pass",
+        "detail": "src.mt5_connector",
+        "documentation": {}
+    },
+    {
+        "label": "DataSetup",
+        "kind": 6,
+        "importPath": "src.setup_data",
+        "description": "src.setup_data",
+        "peekOfCode": "class DataSetup:\n    def __init__(self, config):\n        # TODO: Initialize data setup with config\n        pass\n    def fetch_historical_data(self, symbol, timeframe):\n        # TODO: Implement historical data fetching logic\n        pass\n    def store_data(self, data):\n        # TODO: Implement data storage logic for SQLite/CSV\n        pass",
+        "detail": "src.setup_data",
+        "documentation": {}
+    },
+    {
+        "label": "StrategyManager",
+        "kind": 6,
+        "importPath": "src.strategy_manager",
+        "description": "src.strategy_manager",
+        "peekOfCode": "class StrategyManager:\n    def __init__(self, config):\n        # TODO: Initialize strategy manager with config\n        pass\n    def load_strategy(self, strategy_name):\n        # TODO: Implement dynamic strategy loading logic\n        pass\n    def execute_strategies(self, data):\n        # TODO: Implement strategy execution and signal aggregation logic\n        pass",
+        "detail": "src.strategy_manager",
+        "documentation": {}
+    }
+]

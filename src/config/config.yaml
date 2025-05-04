@@ -21,7 +21,7 @@ ml:
       symbol: EURUSD
       lookback: 20
 mt5:
-  login: 208711745
+  login: 209744188
   password: Brian@2025
   server: Exness-MT5Trial9
 database:

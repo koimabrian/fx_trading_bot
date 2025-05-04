@@ -1,5 +1,5 @@
 # Purpose: Defines data model for trading strategies
-from models.database import Database
+from src.models.database import Database
 import json
 from typing import Optional, Dict, Any
 import logging

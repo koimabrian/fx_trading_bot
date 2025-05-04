@@ -4,8 +4,9 @@ import sqlite3
 import logging
 import numpy as np
 import os
+import sys
 from typing import Dict, Any
-from models.database import Database
+from src.models.database import Database
 
 class BacktestRunner:
     def __init__(self, db: Database):
@@ -15,16 +16,23 @@ class BacktestRunner:
         # Ensure results directory exists
         results_dir = 'src\\results' if sys.platform == 'win32' else 'src/results'
         os.makedirs(results_dir, exist_ok=True)
+        self.results_dir = results_dir
 
     def run_backtest(self, strategy_name: str) -> Dict[str, float]:
         """Implement backtesting logic for a given strategy"""
+        self.logger.debug(f"Starting backtest for strategy: {strategy_name}")
         from strategy_manager import StrategyManager
         from ml_strategy_manager import MLStrategyManager
 
         try:
             data = pd.read_sql("SELECT * FROM market_data WHERE symbol='EURUSD'", self.db.conn)
+            self.logger.debug(f"Fetched {len(data)} rows of market data for EURUSD")
         except sqlite3.Error as e:
             self.logger.error(f"Failed to fetch market data: {e}")
+            return {}
+
+        if data.empty:
+            self.logger.warning("No market data available for backtesting. Please populate the database.")
             return {}
 
         manager = MLStrategyManager(self.db) if strategy_name.startswith('ml_') else StrategyManager(self.db)
@@ -34,6 +42,7 @@ class BacktestRunner:
             signal = manager.generate_signals()
             if signal:
                 signals.extend(signal)
+                self.logger.debug(f"Generated signal at index {i}: {signal}")
 
         # Simplified backtest metrics (placeholder for full implementation)
         profit_factor = 1.5

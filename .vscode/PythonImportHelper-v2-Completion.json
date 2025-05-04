@@ -182,6 +182,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Dict",
         "importPath": "typing",
         "description": "typing",
@@ -198,43 +206,51 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "Database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "src.models.database",
         "documentation": {}
     },
     {
         "label": "Database",
-        "importPath": "models.database",
-        "description": "models.database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
         "isExtraImport": true,
-        "detail": "models.database",
+        "detail": "src.models.database",
         "documentation": {}
     },
     {
         "label": "Database",
-        "importPath": "models.database",
-        "description": "models.database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
         "isExtraImport": true,
-        "detail": "models.database",
+        "detail": "src.models.database",
         "documentation": {}
     },
     {
         "label": "Database",
-        "importPath": "models.database",
-        "description": "models.database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
         "isExtraImport": true,
-        "detail": "models.database",
+        "detail": "src.models.database",
         "documentation": {}
     },
     {
         "label": "Database",
-        "importPath": "models.database",
-        "description": "models.database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
         "isExtraImport": true,
-        "detail": "models.database",
+        "detail": "src.models.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "src.models.database",
+        "description": "src.models.database",
+        "isExtraImport": true,
+        "detail": "src.models.database",
         "documentation": {}
     },
     {
@@ -333,58 +349,42 @@
     },
     {
         "label": "MT5Connector",
-        "importPath": "mt5_connector",
-        "description": "mt5_connector",
+        "importPath": "src.mt5_connector",
+        "description": "src.mt5_connector",
         "isExtraImport": true,
-        "detail": "mt5_connector",
-        "documentation": {}
-    },
-    {
-        "label": "MT5Connector",
-        "importPath": "mt5_connector",
-        "description": "mt5_connector",
-        "isExtraImport": true,
-        "detail": "mt5_connector",
+        "detail": "src.mt5_connector",
         "documentation": {}
     },
     {
         "label": "StrategyManager",
-        "importPath": "strategy_manager",
-        "description": "strategy_manager",
+        "importPath": "src.strategy_manager",
+        "description": "src.strategy_manager",
         "isExtraImport": true,
-        "detail": "strategy_manager",
-        "documentation": {}
-    },
-    {
-        "label": "MLStrategyManager",
-        "importPath": "ml_strategy_manager",
-        "description": "ml_strategy_manager",
-        "isExtraImport": true,
-        "detail": "ml_strategy_manager",
+        "detail": "src.strategy_manager",
         "documentation": {}
     },
     {
         "label": "BacktestRunner",
-        "importPath": "backtest_runner",
-        "description": "backtest_runner",
+        "importPath": "src.backtest_runner",
+        "description": "src.backtest_runner",
         "isExtraImport": true,
-        "detail": "backtest_runner",
+        "detail": "src.backtest_runner",
         "documentation": {}
     },
     {
         "label": "setup_parser",
-        "importPath": "ui.cli",
-        "description": "ui.cli",
+        "importPath": "src.ui.cli",
+        "description": "src.ui.cli",
         "isExtraImport": true,
-        "detail": "ui.cli",
+        "detail": "src.ui.cli",
         "documentation": {}
     },
     {
         "label": "Dashboard",
-        "importPath": "ui.gui.dashboard",
-        "description": "ui.gui.dashboard",
+        "importPath": "src.ui.gui.dashboard",
+        "description": "src.ui.gui.dashboard",
         "isExtraImport": true,
-        "detail": "ui.gui.dashboard",
+        "detail": "src.ui.gui.dashboard",
         "documentation": {}
     },
     {
@@ -393,22 +393,6 @@
         "description": "PyQt5.QtWidgets",
         "isExtraImport": true,
         "detail": "PyQt5.QtWidgets",
-        "documentation": {}
-    },
-    {
-        "label": "RandomForestStrategy",
-        "importPath": "ml_strategies.random_forest_strategy",
-        "description": "ml_strategies.random_forest_strategy",
-        "isExtraImport": true,
-        "detail": "ml_strategies.random_forest_strategy",
-        "documentation": {}
-    },
-    {
-        "label": "LSTMStrategy",
-        "importPath": "ml_strategies.lstm_strategy",
-        "description": "ml_strategies.lstm_strategy",
-        "isExtraImport": true,
-        "detail": "ml_strategies.lstm_strategy",
         "documentation": {}
     },
     {
@@ -430,28 +414,35 @@
         "documentation": {}
     },
     {
-        "label": "importlib",
-        "kind": 6,
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "importPath": "importlib",
-        "description": "importlib",
-        "detail": "importlib",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
         "label": "RSIStrategy",
-        "importPath": "strategies.rsi_strategy",
-        "description": "strategies.rsi_strategy",
+        "importPath": "src.strategies.rsi_strategy",
+        "description": "src.strategies.rsi_strategy",
         "isExtraImport": true,
-        "detail": "strategies.rsi_strategy",
+        "detail": "src.strategies.rsi_strategy",
         "documentation": {}
     },
     {
         "label": "MACDStrategy",
-        "importPath": "strategies.macd_strategy",
-        "description": "strategies.macd_strategy",
+        "importPath": "src.strategies.macd_strategy",
+        "description": "src.strategies.macd_strategy",
         "isExtraImport": true,
-        "detail": "strategies.macd_strategy",
+        "detail": "src.strategies.macd_strategy",
         "documentation": {}
     },
     {
@@ -504,7 +495,7 @@
         "kind": 6,
         "importPath": "src.strategies.rsi_strategy",
         "description": "src.strategies.rsi_strategy",
-        "peekOfCode": "class RSIStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.period = params.get('period', 14)\n        self.overbought = params.get('overbought', 70)\n        self.oversold = params.get('oversold', 30)\n        self.symbol = params.get('symbol', 'EURUSD')\n    def generate_signal(self):\n        \"\"\"Implement RSI signal generation logic\"\"\"\n        from mt5_connector import MT5Connector",
+        "peekOfCode": "class RSIStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.period = params.get('period', 14)\n        self.overbought = params.get('overbought', 70)\n        self.oversold = params.get('oversold', 30)\n        self.symbol = params.get('symbol', 'EURUSD')\n        self.logger = logging.getLogger(__name__)\n        self.db = Database('src\\\\data\\\\market_data.sqlite' if sys.platform == 'win32' else 'src/data/market_data.sqlite')\n        self.db.connect()",
         "detail": "src.strategies.rsi_strategy",
         "documentation": {}
     },
@@ -576,7 +567,7 @@
         "kind": 6,
         "importPath": "src.backtest_runner",
         "description": "src.backtest_runner",
-        "peekOfCode": "class BacktestRunner:\n    def __init__(self, db: Database):\n        \"\"\"Initialize backtest runner with config\"\"\"\n        self.db = db\n        self.logger = logging.getLogger(__name__)\n        # Ensure results directory exists\n        results_dir = 'src\\\\results' if sys.platform == 'win32' else 'src/results'\n        os.makedirs(results_dir, exist_ok=True)\n    def run_backtest(self, strategy_name: str) -> Dict[str, float]:\n        \"\"\"Implement backtesting logic for a given strategy\"\"\"",
+        "peekOfCode": "class BacktestRunner:\n    def __init__(self, db: Database):\n        \"\"\"Initialize backtest runner with config\"\"\"\n        self.db = db\n        self.logger = logging.getLogger(__name__)\n        # Ensure results directory exists\n        results_dir = 'src\\\\results' if sys.platform == 'win32' else 'src/results'\n        os.makedirs(results_dir, exist_ok=True)\n        self.results_dir = results_dir\n    def run_backtest(self, strategy_name: str) -> Dict[str, float]:",
         "detail": "src.backtest_runner",
         "documentation": {}
     },
@@ -585,16 +576,7 @@
         "kind": 2,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "def main():\n    parser = setup_parser()\n    args = parser.parse_args()\n    # Initialize database\n    db_path = 'src\\\\data\\\\market_data.sqlite' if sys.platform == 'win32' else 'src/data/market_data.sqlite'\n    db = Database(db_path)\n    db.connect()\n    # Initialize MT5 connection\n    mt5 = MT5Connector()\n    if not mt5.initialize():",
-        "detail": "src.main",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ['TF_ENABLE_ONEDNN_OPTS']",
-        "kind": 5,
-        "importPath": "src.main",
-        "description": "src.main",
-        "peekOfCode": "os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'\n# Ensure logs directory exists\nlog_dir = 'src\\\\logs' if sys.platform == 'win32' else 'src/logs'\nos.makedirs(log_dir, exist_ok=True)\n# Ensure data directory exists\ndata_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,",
+        "peekOfCode": "def main():\n    parser = setup_parser()\n    args = parser.parse_args()\n    logging.debug(f\"Starting bot with mode: {args.mode}, strategy: {args.strategy}\")\n    # Initialize database\n    db_path = 'src\\\\data\\\\market_data.sqlite' if sys.platform == 'win32' else 'src/data/market_data.sqlite'\n    db = Database(db_path)\n    db.connect()\n    # Initialize MT5 connection only for live trading or GUI mode\n    mt5 = MT5Connector()",
         "detail": "src.main",
         "documentation": {}
     },
@@ -603,7 +585,7 @@
         "kind": 5,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "log_dir = 'src\\\\logs' if sys.platform == 'win32' else 'src/logs'\nos.makedirs(log_dir, exist_ok=True)\n# Ensure data directory exists\ndata_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,\n    format='%(asctime)s - %(levelname)s - %(message)s'\n)",
+        "peekOfCode": "log_dir = 'src\\\\logs' if sys.platform == 'win32' else 'src/logs'\nos.makedirs(log_dir, exist_ok=True)\n# Ensure data directory exists\ndata_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    level=logging.DEBUG,\n    format='%(asctime)s - %(levelname)s - %(message)s',\n    handlers=[\n        logging.FileHandler(os.path.join(log_dir, 'terminal_log.txt')),",
         "detail": "src.main",
         "documentation": {}
     },
@@ -612,7 +594,7 @@
         "kind": 5,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "data_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,\n    format='%(asctime)s - %(levelname)s - %(message)s'\n)\ndef main():\n    parser = setup_parser()\n    args = parser.parse_args()",
+        "peekOfCode": "data_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    level=logging.DEBUG,\n    format='%(asctime)s - %(levelname)s - %(message)s',\n    handlers=[\n        logging.FileHandler(os.path.join(log_dir, 'terminal_log.txt')),\n        logging.StreamHandler(sys.stdout)  # Output to console\n    ]\n)",
         "detail": "src.main",
         "documentation": {}
     },
@@ -621,7 +603,7 @@
         "kind": 6,
         "importPath": "src.ml_strategy_manager",
         "description": "src.ml_strategy_manager",
-        "peekOfCode": "class MLStrategyManager:\n    def __init__(self):\n        \"\"\"Initialize ML strategy manager with config\"\"\"\n        self.strategies = []\n        self.redis_client = redis.Redis(host='redis', port=6379, db=0)\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load ML strategy configurations\"\"\"\n        with open('src/config/config.yaml', 'r') as file:\n            config = yaml.safe_load(file)",
+        "peekOfCode": "class MLStrategyManager:\n    def __init__(self, db: Database):\n        \"\"\"Initialize ML strategy manager with config\"\"\"\n        self.db = db\n        self.strategies = []\n        self.redis_client = redis.Redis(host='localhost', port=6379, db=0)\n        self.logger = logging.getLogger(__name__)\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load ML strategy configurations\"\"\"",
         "detail": "src.ml_strategy_manager",
         "documentation": {}
     },
@@ -630,7 +612,7 @@
         "kind": 6,
         "importPath": "src.mt5_connector",
         "description": "src.mt5_connector",
-        "peekOfCode": "class MT5Connector:\n    def __init__(self):\n        self.login = int(os.getenv(\"MT5_LOGIN\"))\n        self.password = os.getenv(\"MT5_PASSWORD\")\n        self.server = os.getenv(\"MT5_SERVER\")\n        self.logger = logging.getLogger(__name__)\n    def initialize(self) -> bool:\n        \"\"\"Initialize MT5 connection with config\"\"\"\n        try:\n            if not mt5.initialize(login=self.login, password=self.password, server=self.server):",
+        "peekOfCode": "class MT5Connector:\n    def __init__(self):\n        self.logger = logging.getLogger(__name__)\n        # Load credentials from config.yaml or environment variables\n        with open('src/config/config.yaml', 'r') as file:\n            config = yaml.safe_load(file)\n        mt5_config = config.get('mt5', {})\n        self.login = int(os.getenv(\"MT5_LOGIN\", mt5_config.get('login', 0)))\n        self.password = os.getenv(\"MT5_PASSWORD\", mt5_config.get('password', \"\"))\n        self.server = os.getenv(\"MT5_SERVER\", mt5_config.get('server', \"\"))",
         "detail": "src.mt5_connector",
         "documentation": {}
     },
@@ -648,7 +630,7 @@
         "kind": 6,
         "importPath": "src.strategy_manager",
         "description": "src.strategy_manager",
-        "peekOfCode": "class StrategyManager:\n    def __init__(self):\n        \"\"\"Initialize strategy manager with config\"\"\"\n        self.strategies = []\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load strategy configurations\"\"\"\n        with open('src/config/config.yaml', 'r') as file:\n            config = yaml.safe_load(file)\n            for strategy in config.get('strategies', []):",
+        "peekOfCode": "class StrategyManager:\n    def __init__(self, db: Database):\n        \"\"\"Initialize strategy manager with config and database\"\"\"\n        self.db = db\n        self.strategies = []\n        self.logger = logging.getLogger(__name__)\n        self.load_config()\n    def load_config(self) -> None:\n        \"\"\"Load strategy configurations from YAML and store in database\"\"\"\n        try:",
         "detail": "src.strategy_manager",
         "documentation": {}
     }

@@ -1,1 +1,6 @@
 Testing: Add pytest unit tests for Database, MT5Connector, and strategy classes.
+
+
+.\.venv\Scripts\activate
+cd C:\Users\chept\OneDrive\Desktop\brian\fx_trading_bot
+python src\main.py --mode backtest --strategy rsi

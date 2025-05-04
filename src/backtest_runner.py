@@ -6,7 +6,9 @@ import numpy as np
 import os
 import sys
 from typing import Dict, Any
-from src.models.database import Database
+from .models.database import Database
+from .strategy_manager import StrategyManager
+from .ml_strategy_manager import MLStrategyManager
 
 class BacktestRunner:
     def __init__(self, db: Database):
@@ -21,11 +23,9 @@ class BacktestRunner:
     def run_backtest(self, strategy_name: str) -> Dict[str, float]:
         """Implement backtesting logic for a given strategy"""
         self.logger.debug(f"Starting backtest for strategy: {strategy_name}")
-        from strategy_manager import StrategyManager
-        from ml_strategy_manager import MLStrategyManager
 
         try:
-            data = pd.read_sql("SELECT * FROM market_data WHERE symbol='EURUSD'", self.db.conn)
+            data = pd.read_sql("SELECT * FROM market_data WHERE symbol='EURUSD' ORDER BY time", self.db.conn)
             self.logger.debug(f"Fetched {len(data)} rows of market data for EURUSD")
         except sqlite3.Error as e:
             self.logger.error(f"Failed to fetch market data: {e}")
@@ -35,11 +35,13 @@ class BacktestRunner:
             self.logger.warning("No market data available for backtesting. Please populate the database.")
             return {}
 
+        # Initialize manager once
         manager = MLStrategyManager(self.db) if strategy_name.startswith('ml_') else StrategyManager(self.db)
         signals = []
+
         for i in range(100, len(data)):
             subset = data.iloc[:i]
-            signal = manager.generate_signals()
+            signal = manager.generate_signals(strategy_name)
             if signal:
                 signals.extend(signal)
                 self.logger.debug(f"Generated signal at index {i}: {signal}")

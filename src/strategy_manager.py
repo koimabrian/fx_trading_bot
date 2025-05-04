@@ -37,12 +37,18 @@ class StrategyManager:
             self.logger.error(f"Failed to load strategy config: {e}")
             raise
 
-    def generate_signals(self) -> List[Dict[str, Any]]:
-        """Implement strategy execution and signal aggregation logic"""
+    def generate_signals(self, strategy_name: str = None) -> List[Dict[str, Any]]:
+        """Generate signals for the specified strategy or all strategies if none specified"""
         signals = []
         for strategy in self.strategies:
-            signal = strategy.generate_signal()
-            if signal:
-                signals.append(signal)
-                self.logger.debug(f"Generated signal from {strategy.__class__.__name__}: {signal}")
+            if strategy_name and strategy.__class__.__name__.lower().startswith(strategy_name.lower()):
+                signal = strategy.generate_signal()
+                if signal:
+                    signals.append(signal)
+                    self.logger.debug(f"Generated signal from {strategy.__class__.__name__}: {signal}")
+            elif not strategy_name:
+                signal = strategy.generate_signal()
+                if signal:
+                    signals.append(signal)
+                    self.logger.debug(f"Generated signal from {strategy.__class__.__name__}: {signal}")
         return signals

@@ -246,14 +246,6 @@
         "documentation": {}
     },
     {
-        "label": "Database",
-        "importPath": "src.models.database",
-        "description": "src.models.database",
-        "isExtraImport": true,
-        "detail": "src.models.database",
-        "documentation": {}
-    },
-    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -345,6 +337,14 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "importPath": "src.mt5_connector",
+        "description": "src.mt5_connector",
+        "isExtraImport": true,
+        "detail": "src.mt5_connector",
         "documentation": {}
     },
     {
@@ -486,7 +486,7 @@
         "kind": 6,
         "importPath": "src.strategies.macd_strategy",
         "description": "src.strategies.macd_strategy",
-        "peekOfCode": "class MACDStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.fast_period = params.get('fast_period', 12)\n        self.slow_period = params.get('slow_period', 26)\n        self.signal_period = params.get('signal_period', 9)\n        self.symbol = params.get('symbol', 'EURUSD')\n    def generate_signal(self):\n        \"\"\"Implement MACD signal generation logic\"\"\"\n        from mt5_connector import MT5Connector",
+        "peekOfCode": "class MACDStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.fast_period = params.get('fast_period', 12)\n        self.slow_period = params.get('slow_period', 26)\n        self.signal_period = params.get('signal_period', 9)\n        self.symbol = params.get('symbol', 'EURUSD')\n        self.logger = logging.getLogger(__name__)\n        self.db = Database('src\\\\data\\\\market_data.sqlite' if sys.platform == 'win32' else 'src/data/market_data.sqlite')\n        self.db.connect()",
         "detail": "src.strategies.macd_strategy",
         "documentation": {}
     },

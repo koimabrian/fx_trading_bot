@@ -2,7 +2,7 @@
 import sqlite3
 import pandas as pd
 import numpy as np
-from .mt5_connector import MT5Connector
+from src.mt5_connector import MT5Connector
 from src.models.database import Database
 import logging
 from typing import Optional

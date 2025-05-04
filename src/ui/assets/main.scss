@@ -1,0 +1,33 @@
+// Purpose: Main Sass file for custom UI styling
+$primary: #0D1B2A;
+$accent: #FF6B6B;
+
+@mixin button-style {
+  background-color: $accent;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  &:hover {
+    background-color: darken($accent, 10%);
+  }
+}
+
+QPushButton {
+  @include button-style;
+}
+
+QMainWindow {
+  background-color: $primary;
+}
+
+QLabel {
+  color: white;
+  font-size: 14px;
+}
+
+// Responsive design
+@media (max-width: 640px) {
+  QPushButton {
+    padding: 6px 12px;
+  }
+}

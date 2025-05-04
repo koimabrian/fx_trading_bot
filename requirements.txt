@@ -1,16 +1,15 @@
-# Purpose: Lists Python dependencies for the FX Trading Bot.
+# Purpose: Lists Python dependencies for the project
 
-MetaTrader5
-pandas
-ta-lib 
-pyyaml
-sqlcipher3-binary
-redis
-scikit-learn
-tensorflow 
-onnx 
-onnxruntime 
-hyperopt
-PyQt5 
-bcrypt
-numpy 
+MetaTrader5>=5.0.45
+pandas>=2.2.0
+ta-lib>=0.4.28
+pyyaml>=6.0.1
+redis>=5.0.1
+scikit-learn>=1.4.0
+tensorflow>=2.15.0
+onnx>=1.16.0
+hyperopt>=0.2.7
+PyQt5>=5.15.10
+bcrypt>=4.1.2
+numpy>=1.26.4
+ta

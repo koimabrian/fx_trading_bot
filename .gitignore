@@ -1,16 +1,63 @@
 # File: .gitignore
 # Purpose: Specifies files and directories to ignore in version control.
+# This file is used by Git to determine which files and directories to ignore in the repository.
+# It is important to keep this file updated to avoid committing unnecessary files.
 
-__pycache__/
+# Ignore Python bytecode files
 *.pyc
 *.pyo
-*.pyd
-.Python
-env/
-venv/
+__pycache__/
+
+# Ignore virtual environment directories
+.venv/
+.env
+
+# Ignore environment variable files
+*.env
+*.env.*
+
+# Ignore log files
 *.log
-data/
-logs/
-results/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.so
+*.dll
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore any other custom files or directories
+node_modules/
+dist/
+build/
+
+# Ignore SQLite database files
 *.sqlite
-*.db
+src/data/*.sqlite
+
+# Ignore results directory
+src/results/
+
+# Ignore logs directory
+src/logs/
+
+# Ignore CSV files
+*.csv
+
+# Ignore Jupyter Notebook files
+*.ipynb
+
+# Ignore Python egg-info directories
+*.egg-info

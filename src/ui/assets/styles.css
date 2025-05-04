@@ -1,0 +1,38 @@
+/* Purpose: Compiled CSS styles for the UI, using Tailwind CSS and custom Sass */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Andela-inspired aesthetic */
+body, QWidget {
+    background-color: #0D1B2A;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+QPushButton {
+    background-color: #FF6B6B;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #e55a5a;
+}
+
+QLabel {
+    color: white;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #0D1B2A;
+}
+
+/* Responsive layout */
+@media (max-width: 640px) {
+    QPushButton {
+        padding: 6px 12px;
+    }
+}

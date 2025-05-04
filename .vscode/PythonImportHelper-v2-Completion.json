@@ -1,14 +1,5 @@
 [
     {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
         "label": "tensorflow",
         "kind": 6,
         "isExtraImport": true,
@@ -18,12 +9,30 @@
         "documentation": {}
     },
     {
-        "label": "onnx",
+        "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "onnx",
-        "description": "onnx",
-        "detail": "onnx",
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
         "documentation": {}
     },
     {
@@ -35,16 +44,235 @@
         "documentation": {}
     },
     {
-        "label": "talib",
+        "label": "sqlite3",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "talib",
-        "description": "talib",
-        "detail": "talib",
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "models.database",
+        "description": "models.database",
+        "isExtraImport": true,
+        "detail": "models.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "models.database",
+        "description": "models.database",
+        "isExtraImport": true,
+        "detail": "models.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "models.database",
+        "description": "models.database",
+        "isExtraImport": true,
+        "detail": "models.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "models.database",
+        "description": "models.database",
+        "isExtraImport": true,
+        "detail": "models.database",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ta",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ta",
+        "description": "ta",
+        "detail": "ta",
         "documentation": {}
     },
     {
         "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt5",
+        "description": "PyQt5",
+        "isExtraImport": true,
+        "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
         "importPath": "PyQt5",
         "description": "PyQt5",
         "isExtraImport": true,
@@ -65,6 +293,24 @@
         "description": "PyQt5",
         "isExtraImport": true,
         "detail": "PyQt5",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
         "documentation": {}
     },
     {
@@ -77,67 +323,92 @@
         "documentation": {}
     },
     {
-        "label": "StrategyManager",
-        "importPath": "src.strategy_manager",
-        "description": "src.strategy_manager",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "src.strategy_manager",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "importPath": "mt5_connector",
+        "description": "mt5_connector",
+        "isExtraImport": true,
+        "detail": "mt5_connector",
+        "documentation": {}
+    },
+    {
+        "label": "MT5Connector",
+        "importPath": "mt5_connector",
+        "description": "mt5_connector",
+        "isExtraImport": true,
+        "detail": "mt5_connector",
         "documentation": {}
     },
     {
         "label": "StrategyManager",
-        "importPath": "src.strategy_manager",
-        "description": "src.strategy_manager",
+        "importPath": "strategy_manager",
+        "description": "strategy_manager",
         "isExtraImport": true,
-        "detail": "src.strategy_manager",
+        "detail": "strategy_manager",
         "documentation": {}
     },
     {
         "label": "MLStrategyManager",
-        "importPath": "src.ml_strategy_manager",
-        "description": "src.ml_strategy_manager",
+        "importPath": "ml_strategy_manager",
+        "description": "ml_strategy_manager",
         "isExtraImport": true,
-        "detail": "src.ml_strategy_manager",
-        "documentation": {}
-    },
-    {
-        "label": "MLStrategyManager",
-        "importPath": "src.ml_strategy_manager",
-        "description": "src.ml_strategy_manager",
-        "isExtraImport": true,
-        "detail": "src.ml_strategy_manager",
+        "detail": "ml_strategy_manager",
         "documentation": {}
     },
     {
         "label": "BacktestRunner",
-        "importPath": "src.backtest_runner",
-        "description": "src.backtest_runner",
+        "importPath": "backtest_runner",
+        "description": "backtest_runner",
         "isExtraImport": true,
-        "detail": "src.backtest_runner",
-        "documentation": {}
-    },
-    {
-        "label": "MT5Connector",
-        "importPath": "src.mt5_connector",
-        "description": "src.mt5_connector",
-        "isExtraImport": true,
-        "detail": "src.mt5_connector",
-        "documentation": {}
-    },
-    {
-        "label": "MT5Connector",
-        "importPath": "src.mt5_connector",
-        "description": "src.mt5_connector",
-        "isExtraImport": true,
-        "detail": "src.mt5_connector",
+        "detail": "backtest_runner",
         "documentation": {}
     },
     {
         "label": "setup_parser",
-        "importPath": "src.ui.cli",
-        "description": "src.ui.cli",
+        "importPath": "ui.cli",
+        "description": "ui.cli",
         "isExtraImport": true,
-        "detail": "src.ui.cli",
+        "detail": "ui.cli",
+        "documentation": {}
+    },
+    {
+        "label": "Dashboard",
+        "importPath": "ui.gui.dashboard",
+        "description": "ui.gui.dashboard",
+        "isExtraImport": true,
+        "detail": "ui.gui.dashboard",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestStrategy",
+        "importPath": "ml_strategies.random_forest_strategy",
+        "description": "ml_strategies.random_forest_strategy",
+        "isExtraImport": true,
+        "detail": "ml_strategies.random_forest_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "LSTMStrategy",
+        "importPath": "ml_strategies.lstm_strategy",
+        "description": "ml_strategies.lstm_strategy",
+        "isExtraImport": true,
+        "detail": "ml_strategies.lstm_strategy",
         "documentation": {}
     },
     {
@@ -159,15 +430,6 @@
         "documentation": {}
     },
     {
-        "label": "sqlite3",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sqlite3",
-        "description": "sqlite3",
-        "detail": "sqlite3",
-        "documentation": {}
-    },
-    {
         "label": "importlib",
         "kind": 6,
         "isExtraImport": true,
@@ -177,11 +439,27 @@
         "documentation": {}
     },
     {
+        "label": "RSIStrategy",
+        "importPath": "strategies.rsi_strategy",
+        "description": "strategies.rsi_strategy",
+        "isExtraImport": true,
+        "detail": "strategies.rsi_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "MACDStrategy",
+        "importPath": "strategies.macd_strategy",
+        "description": "strategies.macd_strategy",
+        "isExtraImport": true,
+        "detail": "strategies.macd_strategy",
+        "documentation": {}
+    },
+    {
         "label": "LSTMStrategy",
         "kind": 6,
         "importPath": "src.ml_strategies.lstm_strategy",
         "description": "src.ml_strategies.lstm_strategy",
-        "peekOfCode": "class LSTMStrategy:\n    def __init__(self, model_path, config):\n        # TODO: Load LSTM model and initialize parameters\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement ML-based signal generation logic\n        pass",
+        "peekOfCode": "class LSTMStrategy:\n    def __init__(self, params):\n        \"\"\"Load LSTM model and initialize parameters\"\"\"\n        self.symbol = params.get('symbol', 'EURUSD')\n        self.model = self.build_model()\n        self.lookback = params.get('lookback', 20)\n    def build_model(self):\n        model = tf.keras.Sequential([\n            tf.keras.layers.LSTM(32, input_shape=(20, 1), return_sequences=False),\n            tf.keras.layers.Dense(1, activation='sigmoid')",
         "detail": "src.ml_strategies.lstm_strategy",
         "documentation": {}
     },
@@ -190,8 +468,26 @@
         "kind": 6,
         "importPath": "src.ml_strategies.random_forest_strategy",
         "description": "src.ml_strategies.random_forest_strategy",
-        "peekOfCode": "class RandomForestStrategy:\n    def __init__(self, model_path, config):\n        # TODO: Load Random Forest model and initialize parameters\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement ML-based signal generation logic\n        pass",
+        "peekOfCode": "class RandomForestStrategy:\n    def __init__(self, params):\n        \"\"\"Load Random Forest model and initialize parameters\"\"\"\n        self.model = RandomForestClassifier(n_estimators=50, max_depth=5)\n        self.symbol = params.get('symbol', 'EURUSD')\n        self.features = ['rsi', 'macd']\n    def train(self, data):\n        \"\"\"Train Random Forest model\"\"\"\n        X = data[self.features]\n        y = (data['close'].shift(-1) > data['close']).astype(int)",
         "detail": "src.ml_strategies.random_forest_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "src.models.database",
+        "description": "src.models.database",
+        "peekOfCode": "class Database:\n    def __init__(self, db_path: str):\n        \"\"\"Initialize SQLite connection\"\"\"\n        self.db_path = db_path.replace(\"/\", \"\\\\\") if sys.platform == \"win32\" else db_path  # Windows path compatibility\n        self.conn: Optional[sqlite3.Connection] = None\n        self.logger = logging.getLogger(__name__)\n    def connect(self) -> None:\n        \"\"\"Establish database connection\"\"\"\n        try:\n            self.conn = sqlite3.connect(self.db_path)",
+        "detail": "src.models.database",
+        "documentation": {}
+    },
+    {
+        "label": "StrategyModel",
+        "kind": 6,
+        "importPath": "src.models.strategy_model",
+        "description": "src.models.strategy_model",
+        "peekOfCode": "class StrategyModel:\n    def __init__(self, db: Database):\n        self.db = db\n        self.logger = logging.getLogger(__name__)\n    def save(self, name: str, parameters: Dict[str, Any], filters: Dict[str, Any],\n             score: float, status: str, is_ml: bool) -> int:\n        \"\"\"Save a strategy to the database\"\"\"\n        query = \"\"\"\n            INSERT INTO strategies (name, parameters, filters, score, status, is_ml)\n            VALUES (?, ?, ?, ?, ?, ?)",
+        "detail": "src.models.strategy_model",
         "documentation": {}
     },
     {
@@ -199,7 +495,7 @@
         "kind": 6,
         "importPath": "src.strategies.macd_strategy",
         "description": "src.strategies.macd_strategy",
-        "peekOfCode": "class MACDStrategy:\n    def __init__(self, config):\n        # TODO: Initialize strategy parameters from config\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement MACD signal generation logic\n        pass",
+        "peekOfCode": "class MACDStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.fast_period = params.get('fast_period', 12)\n        self.slow_period = params.get('slow_period', 26)\n        self.signal_period = params.get('signal_period', 9)\n        self.symbol = params.get('symbol', 'EURUSD')\n    def generate_signal(self):\n        \"\"\"Implement MACD signal generation logic\"\"\"\n        from mt5_connector import MT5Connector",
         "detail": "src.strategies.macd_strategy",
         "documentation": {}
     },
@@ -208,8 +504,17 @@
         "kind": 6,
         "importPath": "src.strategies.rsi_strategy",
         "description": "src.strategies.rsi_strategy",
-        "peekOfCode": "class RSIStrategy:\n    def __init__(self, config):\n        # TODO: Initialize strategy parameters from config\n        pass\n    def generate_signal(self, data):\n        # TODO: Implement RSI signal generation logic\n        pass",
+        "peekOfCode": "class RSIStrategy:\n    def __init__(self, params):\n        \"\"\"Initialize strategy parameters from config\"\"\"\n        self.period = params.get('period', 14)\n        self.overbought = params.get('overbought', 70)\n        self.oversold = params.get('oversold', 30)\n        self.symbol = params.get('symbol', 'EURUSD')\n    def generate_signal(self):\n        \"\"\"Implement RSI signal generation logic\"\"\"\n        from mt5_connector import MT5Connector",
         "detail": "src.strategies.rsi_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "BacktestVisualizer",
+        "kind": 6,
+        "importPath": "src.ui.gui.backtest_visualizer",
+        "description": "src.ui.gui.backtest_visualizer",
+        "peekOfCode": "class BacktestVisualizer(QtWidgets.QWidget):\n    def __init__(self):\n        \"\"\"Initialize backtest visualizer UI components\"\"\"\n        super().__init__()\n        self.logger = logging.getLogger(__name__)\n        self.init_ui()\n    def init_ui(self):\n        \"\"\"Set up UI layout\"\"\"\n        layout = QtWidgets.QVBoxLayout(self)\n        self.metrics_label = QtWidgets.QLabel(\"Backtest Metrics: N/A\")",
+        "detail": "src.ui.gui.backtest_visualizer",
         "documentation": {}
     },
     {
@@ -217,7 +522,7 @@
         "kind": 6,
         "importPath": "src.ui.gui.dashboard",
         "description": "src.ui.gui.dashboard",
-        "peekOfCode": "class Dashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        # TODO: Initialize dashboard UI components\n        pass\n    def update_metrics(self, metrics):\n        # TODO: Implement logic to update performance metrics display\n        pass",
+        "peekOfCode": "class Dashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        \"\"\"Initialize dashboard UI components\"\"\"\n        super().__init__()\n        self.setWindowTitle(\"FX Trading Bot Dashboard\")\n        self.setStyleSheet(\"\"\"\n            QMainWindow { background-color: #0D1B2A; color: white; }\n            QPushButton { background-color: #FF6B6B; color: white; padding: 5px; }\n            QLabel { color: white; }\n        \"\"\")",
         "detail": "src.ui.gui.dashboard",
         "documentation": {}
     },
@@ -226,7 +531,7 @@
         "kind": 6,
         "importPath": "src.ui.gui.filter_editor",
         "description": "src.ui.gui.filter_editor",
-        "peekOfCode": "class FilterEditor(QtWidgets.QWidget):\n    def __init__(self):\n        # TODO: Initialize filter editor UI components\n        pass\n    def apply_filters(self, filters):\n        # TODO: Implement logic to apply filter configurations\n        pass",
+        "peekOfCode": "class FilterEditor(QtWidgets.QWidget):\n    def __init__(self):\n        \"\"\"Initialize filter editor UI components\"\"\"\n        super().__init__()\n        self.logger = logging.getLogger(__name__)\n        self.init_ui()\n    def init_ui(self):\n        \"\"\"Set up UI layout\"\"\"\n        layout = QtWidgets.QVBoxLayout(self)\n        self.filter_input = QtWidgets.QTextEdit()",
         "detail": "src.ui.gui.filter_editor",
         "documentation": {}
     },
@@ -235,7 +540,7 @@
         "kind": 6,
         "importPath": "src.ui.gui.partner_dashboard",
         "description": "src.ui.gui.partner_dashboard",
-        "peekOfCode": "class PartnerDashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        # TODO: Initialize partner dashboard UI components\n        pass\n    def display_metrics(self, metrics):\n        # TODO: Implement logic to display read-only performance metrics\n        pass",
+        "peekOfCode": "class PartnerDashboard(QtWidgets.QMainWindow):\n    def __init__(self):\n        \"\"\"Initialize partner dashboard UI components\"\"\"\n        super().__init__()\n        self.setWindowTitle(\"Partner Dashboard\")\n        self.setStyleSheet(\"\"\"\n            QMainWindow { background-color: #0D1B2A; color: white; }\n            QLabel { color: white; }\n        \"\"\")\n        if not self.authenticate():",
         "detail": "src.ui.gui.partner_dashboard",
         "documentation": {}
     },
@@ -244,7 +549,7 @@
         "kind": 2,
         "importPath": "src.ui.cli",
         "description": "src.ui.cli",
-        "peekOfCode": "def setup_parser():\n    # TODO: Define CLI arguments for strategy, backtest, and ML model management\n    pass\ndef main():\n    # TODO: Implement main CLI logic for user interaction\n    pass",
+        "peekOfCode": "def setup_parser():\n    \"\"\"Define CLI arguments for strategy, backtest, and ML model management\"\"\"\n    parser = argparse.ArgumentParser(description=\"FX Trading Bot CLI\")\n    parser.add_argument('--mode', choices=['backtest', 'live', 'gui'], default='backtest',\n                        help=\"Operation mode: backtest, live, or gui\")\n    parser.add_argument('--strategy', default='rsi', help=\"Strategy to run (e.g., rsi, macd, ml_random_forest)\")\n    return parser\ndef main():\n    \"\"\"Implement main CLI logic for user interaction\"\"\"\n    parser = setup_parser()",
         "detail": "src.ui.cli",
         "documentation": {}
     },
@@ -253,8 +558,17 @@
         "kind": 2,
         "importPath": "src.ui.cli",
         "description": "src.ui.cli",
-        "peekOfCode": "def main():\n    # TODO: Implement main CLI logic for user interaction\n    pass",
+        "peekOfCode": "def main():\n    \"\"\"Implement main CLI logic for user interaction\"\"\"\n    parser = setup_parser()\n    args = parser.parse_args()\n    logging.info(f\"Starting CLI with mode: {args.mode}, strategy: {args.strategy}\")\n    from main import main as run_bot\n    run_bot()",
         "detail": "src.ui.cli",
+        "documentation": {}
+    },
+    {
+        "label": "AuthManager",
+        "kind": 6,
+        "importPath": "src.utils.auth",
+        "description": "src.utils.auth",
+        "peekOfCode": "class AuthManager:\n    def __init__(self):\n        self.logger = logging.getLogger(__name__)\n        # Hardcoded credentials for testing (to be replaced with DB-driven auth)\n        self.users = {\n            \"admin\": bcrypt.hashpw(\"admin123\".encode('utf-8'), bcrypt.gensalt()),\n            \"partner\": bcrypt.hashpw(\"partner123\".encode('utf-8'), bcrypt.gensalt()),\n        }\n    def authenticate(self, username: str, password: str, role: str = \"admin\") -> bool:\n        \"\"\"Authenticate user or partner\"\"\"",
+        "detail": "src.utils.auth",
         "documentation": {}
     },
     {
@@ -262,7 +576,7 @@
         "kind": 6,
         "importPath": "src.backtest_runner",
         "description": "src.backtest_runner",
-        "peekOfCode": "class BacktestRunner:\n    def __init__(self, config):\n        # TODO: Initialize backtest runner with config\n        pass\n    def run_backtest(self, strategy, data):\n        # TODO: Implement backtesting logic for a given strategy\n        pass\n    def optimize_strategy(self, strategy, data):\n        # TODO: Implement grid search or hyperparameter tuning logic\n        pass",
+        "peekOfCode": "class BacktestRunner:\n    def __init__(self, db: Database):\n        \"\"\"Initialize backtest runner with config\"\"\"\n        self.db = db\n        self.logger = logging.getLogger(__name__)\n        # Ensure results directory exists\n        results_dir = 'src\\\\results' if sys.platform == 'win32' else 'src/results'\n        os.makedirs(results_dir, exist_ok=True)\n    def run_backtest(self, strategy_name: str) -> Dict[str, float]:\n        \"\"\"Implement backtesting logic for a given strategy\"\"\"",
         "detail": "src.backtest_runner",
         "documentation": {}
     },
@@ -271,7 +585,34 @@
         "kind": 2,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "def main():\n    # TODO: Implement main logic for bot execution (CLI/GUI, backtest, live trading)\n    pass\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "def main():\n    parser = setup_parser()\n    args = parser.parse_args()\n    # Initialize database\n    db_path = 'src\\\\data\\\\market_data.sqlite' if sys.platform == 'win32' else 'src/data/market_data.sqlite'\n    db = Database(db_path)\n    db.connect()\n    # Initialize MT5 connection\n    mt5 = MT5Connector()\n    if not mt5.initialize():",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['TF_ENABLE_ONEDNN_OPTS']",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'\n# Ensure logs directory exists\nlog_dir = 'src\\\\logs' if sys.platform == 'win32' else 'src/logs'\nos.makedirs(log_dir, exist_ok=True)\n# Ensure data directory exists\ndata_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "log_dir",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "log_dir = 'src\\\\logs' if sys.platform == 'win32' else 'src/logs'\nos.makedirs(log_dir, exist_ok=True)\n# Ensure data directory exists\ndata_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,\n    format='%(asctime)s - %(levelname)s - %(message)s'\n)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "data_dir",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "data_dir = 'src\\\\data' if sys.platform == 'win32' else 'src/data'\nos.makedirs(data_dir, exist_ok=True)\nlogging.basicConfig(\n    filename=os.path.join(log_dir, 'terminal_log.txt'),\n    level=logging.INFO,\n    format='%(asctime)s - %(levelname)s - %(message)s'\n)\ndef main():\n    parser = setup_parser()\n    args = parser.parse_args()",
         "detail": "src.main",
         "documentation": {}
     },
@@ -280,7 +621,7 @@
         "kind": 6,
         "importPath": "src.ml_strategy_manager",
         "description": "src.ml_strategy_manager",
-        "peekOfCode": "class MLStrategyManager:\n    def __init__(self, config):\n        # TODO: Initialize ML strategy manager with config\n        pass\n    def load_ml_strategy(self, strategy_name):\n        # TODO: Implement ML strategy loading logic\n        pass\n    def train_model(self, data):\n        # TODO: Implement ML model training logic\n        pass",
+        "peekOfCode": "class MLStrategyManager:\n    def __init__(self):\n        \"\"\"Initialize ML strategy manager with config\"\"\"\n        self.strategies = []\n        self.redis_client = redis.Redis(host='redis', port=6379, db=0)\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load ML strategy configurations\"\"\"\n        with open('src/config/config.yaml', 'r') as file:\n            config = yaml.safe_load(file)",
         "detail": "src.ml_strategy_manager",
         "documentation": {}
     },
@@ -289,7 +630,7 @@
         "kind": 6,
         "importPath": "src.mt5_connector",
         "description": "src.mt5_connector",
-        "peekOfCode": "class MT5Connector:\n    def __init__(self, config):\n        # TODO: Initialize MT5 connection with config\n        pass\n    def fetch_market_data(self, symbol, timeframe):\n        # TODO: Implement market data retrieval logic\n        pass\n    def place_order(self, order):\n        # TODO: Implement trade order placement logic\n        pass",
+        "peekOfCode": "class MT5Connector:\n    def __init__(self):\n        self.login = int(os.getenv(\"MT5_LOGIN\"))\n        self.password = os.getenv(\"MT5_PASSWORD\")\n        self.server = os.getenv(\"MT5_SERVER\")\n        self.logger = logging.getLogger(__name__)\n    def initialize(self) -> bool:\n        \"\"\"Initialize MT5 connection with config\"\"\"\n        try:\n            if not mt5.initialize(login=self.login, password=self.password, server=self.server):",
         "detail": "src.mt5_connector",
         "documentation": {}
     },
@@ -298,7 +639,7 @@
         "kind": 6,
         "importPath": "src.setup_data",
         "description": "src.setup_data",
-        "peekOfCode": "class DataSetup:\n    def __init__(self, config):\n        # TODO: Initialize data setup with config\n        pass\n    def fetch_historical_data(self, symbol, timeframe):\n        # TODO: Implement historical data fetching logic\n        pass\n    def store_data(self, data):\n        # TODO: Implement data storage logic for SQLite/CSV\n        pass",
+        "peekOfCode": "class DataSetup:\n    def __init__(self, db: Database):\n        \"\"\"Initialize data setup with config\"\"\"\n        self.db = db\n        self.mt5 = MT5Connector()\n        self.logger = logging.getLogger(__name__)\n    def initialize_database(self) -> None:\n        \"\"\"Initialize SQLite database\"\"\"\n        try:\n            self.db.create_tables()",
         "detail": "src.setup_data",
         "documentation": {}
     },
@@ -307,7 +648,7 @@
         "kind": 6,
         "importPath": "src.strategy_manager",
         "description": "src.strategy_manager",
-        "peekOfCode": "class StrategyManager:\n    def __init__(self, config):\n        # TODO: Initialize strategy manager with config\n        pass\n    def load_strategy(self, strategy_name):\n        # TODO: Implement dynamic strategy loading logic\n        pass\n    def execute_strategies(self, data):\n        # TODO: Implement strategy execution and signal aggregation logic\n        pass",
+        "peekOfCode": "class StrategyManager:\n    def __init__(self):\n        \"\"\"Initialize strategy manager with config\"\"\"\n        self.strategies = []\n        self.load_config()\n    def load_config(self):\n        \"\"\"Load strategy configurations\"\"\"\n        with open('src/config/config.yaml', 'r') as file:\n            config = yaml.safe_load(file)\n            for strategy in config.get('strategies', []):",
         "detail": "src.strategy_manager",
         "documentation": {}
     }

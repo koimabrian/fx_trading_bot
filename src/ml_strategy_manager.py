@@ -1,24 +1,33 @@
-# File: src/ml_strategy_manager.py
-# Purpose: Manages ML-based trading strategies for the FX Trading Bot.
-# This module handles loading, training, and inference for ML strategies.
-
-import pandas as pd
+# Purpose: Manages ML-based trading strategies, isolated from rule-based strategies
+from ml_strategies.random_forest_strategy import RandomForestStrategy
+from ml_strategies.lstm_strategy import LSTMStrategy
 import redis
-import onnx
+import logging
+import yaml
 
 class MLStrategyManager:
-    def __init__(self, config):
-        # TODO: Initialize ML strategy manager with config
-        pass
+    def __init__(self):
+        """Initialize ML strategy manager with config"""
+        self.strategies = []
+        self.redis_client = redis.Redis(host='redis', port=6379, db=0)
+        self.load_config()
 
-    def load_ml_strategy(self, strategy_name):
-        # TODO: Implement ML strategy loading logic
-        pass
+    def load_config(self):
+        """Load ML strategy configurations"""
+        with open('src/config/config.yaml', 'r') as file:
+            config = yaml.safe_load(file)
+            for ml_strategy in config.get('ml', []):
+                if ml_strategy['name'] == 'random_forest':
+                    self.strategies.append(RandomForestStrategy(ml_strategy['params']))
+                elif ml_strategy['name'] == 'lstm':
+                    self.strategies.append(LSTMStrategy(ml_strategy['params']))
 
-    def train_model(self, data):
-        # TODO: Implement ML model training logic
-        pass
-
-    def generate_signal(self, data):
-        # TODO: Implement ML signal generation logic
-        pass
+    def generate_signals(self):
+        """Implement ML signal generation logic"""
+        signals = []
+        for strategy in self.strategies:
+            signal = strategy.predict()
+            if signal:
+                signals.append(signal)
+                self.redis_client.set(f"signal_{signal['symbol']}", str(signal))
+        return signals

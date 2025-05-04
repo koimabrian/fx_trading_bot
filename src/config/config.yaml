@@ -1,15 +1,28 @@
-# File: src/config/config.yaml
-# Purpose: Configuration file for the FX Trading Bot.
-# Defines strategy parameters, filters, and ML configurations.
-
-# TODO: Define strategy configurations
-strategies: {}
-
-# TODO: Define ML model configurations
-ml_strategies: {}
-
-# TODO: Define MT5 connection settings
-mt5: {}
-
-# TODO: Define database settings
-database: {}
+# Purpose: Stores configuration settings for strategies and filters
+strategies:
+  - name: rsi
+    params:
+      period: 14
+      overbought: 70
+      oversold: 30
+      symbol: EURUSD
+  - name: macd
+    params:
+      fast_period: 12
+      slow_period: 26
+      signal_period: 9
+      symbol: EURUSD
+ml:
+  - name: random_forest
+    params:
+      symbol: EURUSD
+  - name: lstm
+    params:
+      symbol: EURUSD
+      lookback: 20
+mt5:
+  login: 208711745
+  password: Brian@2025
+  server: Exness-MT5Trial9
+database:
+  path: src/data/market_data.sqlite

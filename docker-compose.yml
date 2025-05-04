@@ -1,34 +1,11 @@
-# Purpose: Configures services (app, Redis, SQLite) for the FX Trading Bot.
-# Enables containerized development and testing.
-
+# Purpose: Configures services for containerized environment
 version: '3.8'
-
 services:
   app:
     build: .
     volumes:
-      - .:/app
-      - ./data:/app/data
-      - ./logs:/app/logs
-      - ./results:/app/results
+      - .:C:/app
     environment:
-      - MT5_LOGIN=${MT5_LOGIN}
-      - MT5_PASSWORD=${MT5_PASSWORD}
-      - MT5_SERVER=${MT5_SERVER}
-      - REDIS_HOST=redis
-      - DB_PATH=/app/data/trading_bot.db
-    depends_on:
-      - redis
-    ports:
-      - "8000:8000"
-    command: python src/main.py --mode live
-
-  redis:
-    image: redis:latest
-    volumes:
-      - redis_data:/data
-    ports:
-      - "6379:6379"
-
-volumes:
-  redis_data:
+      - MT5_LOGIN=208711745
+      - MT5_PASSWORD=Brian@2025
+      - MT5_SERVER=Exness-MT5Trial9
